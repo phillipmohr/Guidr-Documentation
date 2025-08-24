@@ -2,8 +2,16 @@ import { defineConfig } from 'vitepress'
 
 export default defineConfig({
   title: "Guidr Documentation",
-  description: "Guidr Documentation – For Developers and Non-Technical",
+  description: "Guidr Documentation – Setup & Developer Docs",
+  head: [
+    [
+      'link',
+      { rel: 'icon', type: 'image/png', href: '/images/guidr-logo-mark.png' }
+    ]
+  ],
   themeConfig: {
+    logo: '/images/guidr-logo-mark.png',
+
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Setup & Usage', link: '/usage/getting-started' },
@@ -16,9 +24,7 @@ export default defineConfig({
         {
           text: 'Setup & Usage',
           items: [
-            { text: 'Getting Started', link: '/usage/getting-started' },
-            { text: 'Managing Widgets', link: '/usage/managing-widgets' },
-            { text: 'Integrations', link: '/usage/integrations' }
+            { text: 'Getting Started', link: '/usage/getting-started' }
           ]
         }
       ],

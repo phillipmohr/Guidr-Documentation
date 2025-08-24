@@ -4,22 +4,28 @@ layout: home
 
 hero:
   name: "Guidr Documentation"
-  text: "Guidr Documemtnation – For Developers and Non-Technical"
-  tagline: My great project tagline
+  text: "Build No-Code Product Tours"
+  tagline: Docs for setup & Dev features
+  image:
+    src: /images/guidr-documentation-logo.png
+    alt: "Guidr Docs Hero"
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Developer Docs
+      link: /dev/getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Setup & Usage
+      link: /usage/getting-started
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⚡️
+    title: Quick Start
+    details: Install and set up Guidr in minutes with simple, step-by-step guides.
+  - icon: 🛠️
+    title: Developer API
+    details: Explore event hooks, methods, and code samples for full control.
+  - icon: 🎨
+    title: Customization
+    details: Learn how to style, configure, and adapt Guidr to your product.
 ---
 
