@@ -40,7 +40,7 @@ window.guidr.on("step-complete", (data) => {
 });
 
 // Filter for specific step
-window.guidr.on("step-completed", (data) => {
+window.guidr.on("step-complete", (data) => {
   if (data.stepId === "<your-id>") {
     console.log("Step completed:", data.stepId);
   }
