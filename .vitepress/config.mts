@@ -24,7 +24,17 @@ export default defineConfig({
         {
           text: 'Setup & Usage',
           items: [
-            { text: 'Getting Started', link: '/usage/getting-started' }
+            { text: 'Getting Started', link: '/usage/getting-started' },
+          ]
+        },
+        {
+          text: 'Create your Widget',
+          items: [
+            { text: 'General Form', link: '/usage/general-form' },
+            { text: 'Steps Form', link: '/usage/steps-form' },
+            { text: 'Branding Form', link: '/usage/branding-form' },
+            { text: 'Analytics', link: '/usage/analytics' },
+            { text: 'Embed', link: '/usage/embed' }
           ]
         }
       ],
