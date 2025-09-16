@@ -32,7 +32,8 @@ Each step defines what the user should do. Steps can be grouped together and con
   Define when this step is considered complete. Options:  
   - **On Click** – Step completes when the user clicks a specific DOM element.  
   - **On Page Visit** – Step completes when the user navigates to a given page URL.  
-  - **Manual (Code required)** – Step completes only when triggered manually via API.  
+  - **Manual (Code required)** – Step completes only when triggered manually via API.
+  - **Form Submit** – Step completes when a form was submitted
 - **Page URL / Selector**  
   Depending on the trigger type, either enter the URL (absolute or relative) or the CSS selector to watch.
 
